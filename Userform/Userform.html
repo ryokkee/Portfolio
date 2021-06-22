@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>お問い合わせ</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="stylesheet" href="Userform.css" />
+		<script src="Userform.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h2>お問い合わせ</h2>
+			<div class="header_text">
+				作成の相談・ご要望などはお気軽にお問い合わせください。<br />
+				下記フォームよりご記入ください。 <br />
+				必須項目は必ずご記入お願いいたします。
+			</div>
+		</header>
+		<main>
+			<form action="#" method="post" name="form1" onsubmit="chesk()">
+				<div class="form_item">
+					<div class="item">
+						<h2>1.貴社名</h2>
+						<input type="text" name="corpname" style="width: 300px" />
+					</div>
+					<div class="item">
+						<h2>
+							2.お名前
+							<p>※必須</p>
+						</h2>
+						<input type="text" name="name" style="width: 300px" />
+					</div>
+					<div class="item">
+						<h2>
+							3.メールアドレス
+							<p>※必須</p>
+						</h2>
+						<input type="text" name="email" style="width: 300px" />
+					</div>
+					<div class="item">
+						<h2>4.電話番号</h2>
+						<input type="text" name="phone" style="width: 300px" />
+					</div>
+					<div class="item">
+						<h2>
+							5.お問い合わせ内容
+							<p>※必須</p>
+						</h2>
+						<p>
+							<textarea
+								name="msg"
+								style="width: 500px; height: 150px"
+							></textarea>
+						</p>
+					</div>
+					<div class="item">
+						<p class="checkbox">
+							<input id="checkbox" type="checkbox" />
+							私はロボットではありません。
+						</p>
+						<button id="button" type="submit">送信</button>
+					</div>
+				</div>
+			</form>
+		</main>
+		<footer>
+			<a href="" class="item">TOP</a>
+			<!-- <a href="" class="item">Instagram</a> -->
+			<a href="" class="item">About</a>
+		</footer>
+	</body>
+</html>

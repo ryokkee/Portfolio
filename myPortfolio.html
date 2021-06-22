@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Portfolio</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="MyPortfolio.js" defer></script>
+	</head>
+
+	<body>
+		<input id="menu" type="checkbox" />
+		<label for="menu" class="open">=</label>
+		<label for="menu" class="back"></label>
+
+		<aside>
+			<label for="menu" class="close">×</label>
+			<nav>
+				<div class="menu">
+					<div>MENU</div>
+					<ul>
+						<li><a href="#">Top</a></li>
+						<li><a href="#Servise">Servise</a></li>
+						<li><a href="#Works">Works</a></li>
+						<li><a href="#Others">Others</a></li>
+					</ul>
+				</div>
+			</nav>
+		</aside>
+
+		<header>
+			<div class="container">
+				<div id="site_logo">
+					<img src="img/logo/tree.jpg" />
+				</div>
+				<h1>Portforio</h1>
+			</div>
+		</header>
+
+		<main>
+			<ul class="contents">
+				<li class="animationTarget">
+					<section id="Servise">
+						<div class="contentsText">
+							<h2>Servise</h2>
+						</div>
+						<div class="Servise_box">
+							<h3>リサーチ</h3>
+							<h4>Research</h4>
+							<img src="img/Servise/glass.jpg" />
+							<!-- <p>
+								流行・経済・市場同行などあらゆる側面から状況を把握し、現状の問題点を洗い出し、より解決に近づけるように最大限のアプローチをさせていただきます。
+							</p> -->
+						</div>
+						<div class="Servise_box">
+							<h3>コーディング</h3>
+							<h4>Cording</h4>
+							<img src="img/Servise/cording.jpg" />
+							<!-- <p>
+								見やすいサイトやエンドユーザーの使いやすさに考慮し作成致します。
+								SEO対策も重要ですが、定期的なアップデートを行いユーザーにあったサイトを作成することで、新規の方はもちろん、既存のお客様に満足いただけるサイト作りを行います。
+							</p> -->
+						</div>
+						<div class="Servise_box">
+							<h3>ディレクション</h3>
+							<h4>Direction</h4>
+							<img src="img/Servise/direction.jpg" />
+							<!-- <p>
+								サイトの仕様が決まっていないお客様でも安心してご利用いただけるように、お客様のイメージに沿ったご提案をさせていただきます。<br />
+								また、仕様変更にも柔軟に対応し、満足いただけるよう尽力いたします。
+							</p> -->
+						</div>
+					</section>
+				</li>
+
+				<!-- Worksエリア -->
+				<li class="animationTarget">
+					<div class="contentsText">
+						<section id="Works">
+							<div class="contentsText">
+								<h2>Works</h2>
+							</div>
+							<div class="Works_box">
+								<a id="modalOpen" class="modalOpen">
+									<img src="img/Works/sing.jpg" alt="room" />
+								</a>
+								<div id="modal" class="modal">
+									<h2>題名</h2>
+									<img src="img/Works/sing.jpg" alt="room" />
+									<div class="modalText">
+										<!-- <a
+											>にゃあああああああああ<br />
+											にゃあああああああああ<br />
+											にゃあああああああああ
+										</a> -->
+										<a>
+											ここに文章が入ります。<br />
+											ここに文章が入ります。<br />
+											ここに文章が入ります。
+										</a>
+									</div>
+									<a id="modalClose" class="modalClose">Close</a>
+								</div>
+							</div>
+
+							<div class="Works_box">
+								<img src="img/Works/desk.jpg" alt="room" />
+							</div>
+							<div class="Works_box">
+								<img src="img/Works/note.jpg" alt="room" />
+							</div>
+							<div class="Works_box">
+								<img src="img/Works/torii.jpg" alt="house" />
+							</div>
+							<div class="Works_box">
+								<img src="img/Works/table.jpg" alt="house" />
+							</div>
+							<div class="Works_box">
+								<img src="img/Works/cat_face.jpg" alt="house" />
+							</div>
+							<div class="Works_box">
+								<img src="img/Works/trekking.jpg" alt="house" />
+							</div>
+							<div class="Works_box">
+								<img src="img/Works/books.jpg" alt="house" />
+							</div>
+							<div class="Works_box">
+								<img src="img/Works/caffe.jpg" alt="house" />
+							</div>
+							<div id="mask" class="mask"></div>
+						</section>
+					</div>
+				</li>
+
+				<!-- Othersエリア -->
+				<li class="animationTarget">
+					<section id="Others">
+						<div class="contentsText">
+							<h2>Others</h2>
+							<!-- <p>
+								ここに文章が入ります。
+								かあああああああああああああああああああああ<br />
+								ああああああああああああああああああああああ<br />
+								ああああああああああああああああああああああああああ
+							</p> -->
+						</div>
+						<div class="Others_box">
+							<a class="rinkOpen" href="http://abehiroshi.la.coocan.jp/">
+								<img src="img/Others/SNS.jpg" alt="room" />
+							</a>
+							<p>Instagram</p>
+						</div>
+						<div class="Others_box">
+							<a class="rinkOpen" href="http://abehiroshi.la.coocan.jp/">
+								<img src="img/Others/contact.jpg" alt="contact" />
+							</a>
+							<p>Contact</p>
+						</div>
+						<div class="Others_box">
+							<a class="rinkOpen" href="http://abehiroshi.la.coocan.jp/">
+								<img src="img/Others/dog.jpg" alt="room" />
+							</a>
+							<p>About</p>
+						</div>
+					</section>
+				</li>
+			</ul>
+		</main>
+		<footer>
+			<h1>PortFolio</h1>
+			<h2></h2>
+		</footer>
+	</body>
+</html>

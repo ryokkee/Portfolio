@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	font-family: 'Noto Serif JP', sans-serif;
+	/* background-color: #fff5e3; */
+	color: rgba(0, 0, 0, 0.6);
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header h2 {
+	border-bottom: 1px solid black;
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	line-height: 1.4;
+	width: 600px;
+	padding: 2%;
+}
+
+.header_text {
+	margin: 30px auto;
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+main h2 {
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+.item {
+	margin: 10px;
+}
+
+form h2 {
+	display: flex;
+}
+
+form p {
+	color: red;
+}
+
+form .checkbox {
+	margin: 25px 0;
+	width: 40%;
+	padding: 2vh 0;
+	background: #99ccffc0;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	margin: 45px auto;
+}
+
+footer .item {
+	font-size: 3vh;
+	margin: auto;
+	padding: 5px;
+}
+
+footer a:hover {
+	opacity: 0.7;
+	background-color: rgba(255, 99, 71, 0.5);
+	border-radius: 10%;
+	transition: 0.5s;
+}
